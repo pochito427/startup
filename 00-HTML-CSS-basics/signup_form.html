@@ -1,9 +1,12 @@
-<html>
+<!DOCTYPE html>
 
 
 <head>
 
 <meta charset="UTF-8">
+<meta name="description" content="An exercise to develop a sign up form with different elements">
+<meta name="author" content="Alfonso Jimenez">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Signup form</title>
 <link rel="stylesheet" type="text/css" href="css/signup_form.css">
 </head>
@@ -16,7 +19,7 @@
 </header>
 
 <form id="signup" name="signup" method="post">
-<div class="personal_data" align="center">
+<div class="personal_data">
 <label for="firstname">First name</label>	
 <input id="firstname" name="firstname" type="text" required placeholder="No numbers or symbols" pattern="[A-Za-z]{2,128}">
 <br/>
@@ -31,7 +34,7 @@
 <br/>
 </div>
 
-<div class="preferences" align="center">
+<div class="preferences">
 	<label for="favourite_sport">Favourite sport</label>
     <select id="favourite_sport" name="favourite_sport">
     	<option value="athletics">Athletics</option>
@@ -53,7 +56,7 @@
     <br/>
 </div>
 
-<div class="buttons" align="center">
+<div class="buttons">
     <input id="btn_submit" type="submit" value="Sign Up">
     <input id="btn_reset" type="reset" value="Reset">
 </div>
